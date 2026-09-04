@@ -1,0 +1,8 @@
+.indicator {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.35);
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  display: inline-block;
+}

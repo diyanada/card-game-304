@@ -1,0 +1,41 @@
+.trickArea {
+  position: relative;
+  width: 340px;
+  height: 340px;
+  margin: 16px auto;
+}
+
+.posBottom,
+.posTop,
+.posLeft,
+.posRight {
+  position: absolute;
+}
+
+.posBottom {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.posTop {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.posLeft {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.posRight {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.winning {
+  filter: drop-shadow(0 0 8px gold);
+}

@@ -1,0 +1,70 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal {
+  background: #fffdf7;
+  color: #1a1a1a;
+  padding: 28px 32px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  min-width: 300px;
+}
+
+.modal h2 {
+  margin-top: 0;
+}
+
+.modal p {
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+.suitGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.suitButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 16px 12px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 2px solid #1b6d3a;
+  background: #fff;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.suitButton:hover:not(:disabled) {
+  background: #e9f5ee;
+}
+
+.suitButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.suitButton.red {
+  color: #b3261e;
+}
+
+.symbol {
+  font-size: 32px;
+  line-height: 1;
+}
+
+.name {
+  font-weight: 600;
+}
